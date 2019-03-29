@@ -1,0 +1,303 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: code-server
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .dockerignore
+           .github/CODEOWNERS
+           .github/ISSUE_TEMPLATE/bug_report.md
+           .github/ISSUE_TEMPLATE/extension_bug.md
+           .github/ISSUE_TEMPLATE/feature_request.md
+           .github/ISSUE_TEMPLATE/question.md
+           .gitignore
+           .node-version
+           .travis.yml
+           Dockerfile
+           README.md
+           build/tasks.ts
+           deployment/aws/deployment.yaml
+           deployment/deployment.yaml
+           doc/admin/install/aws.md
+           doc/admin/install/digitalocean.md
+           doc/admin/install/google_cloud.md
+           doc/assets/aws_ubuntu.png
+           doc/assets/chrome_confirm.png
+           doc/assets/chrome_warning.png
+           doc/assets/cli.png
+           doc/assets/cros.png
+           doc/assets/ide.png
+           doc/assets/logo-horizontal.png
+           doc/assets/release.gif
+           doc/assets/server-password-modal.png
+           doc/security/ssl.md
+           doc/self-hosted/cros-install.md
+           doc/self-hosted/index.md
+           package.json
+           packages/app/browser/package.json
+           packages/app/browser/src/app.scss
+           packages/app/browser/src/app.ts
+           packages/app/browser/webpack.config.js
+           packages/app/browser/yarn.lock
+           packages/app/chrome/icon_128.png
+           packages/app/chrome/manifest.json
+           packages/app/chrome/package.json
+           packages/app/chrome/src/background.ts
+           packages/app/chrome/src/chome.ts
+           packages/app/chrome/src/content.ts
+           packages/app/chrome/webpack.config.js
+           packages/app/chrome/yarn.lock
+           packages/app/common/package.json
+           packages/app/common/src/app.scss
+           packages/app/common/src/app.tsx
+           packages/app/common/src/connection.ts
+           packages/app/common/src/containers.tsx
+           packages/app/common/src/fonts/AktivGroteskBold.eot
+           packages/app/common/src/fonts/AktivGroteskBold.ttf
+           packages/app/common/src/fonts/AktivGroteskBold.woff
+           packages/app/common/src/fonts/AktivGroteskBold.woff2
+           packages/app/common/src/fonts/AktivGroteskMedium.eot
+           packages/app/common/src/fonts/AktivGroteskMedium.ttf
+           packages/app/common/src/fonts/AktivGroteskMedium.woff
+           packages/app/common/src/fonts/AktivGroteskMedium.woff2
+           packages/app/common/src/fonts/AktivGroteskRegular.eot
+           packages/app/common/src/fonts/AktivGroteskRegular.ttf
+           packages/app/common/src/fonts/AktivGroteskRegular.woff
+           packages/app/common/src/fonts/AktivGroteskRegular.woff2
+           packages/app/common/src/storage.ts
+           packages/app/common/src/tooltip.scss
+           packages/app/common/yarn.lock
+           packages/disposable/package.json
+           packages/disposable/src/disposable.ts
+           packages/disposable/src/index.ts
+           packages/disposable/yarn.lock
+           packages/dns/.gcloudignore
+           packages/dns/Dockerfile
+           packages/dns/app.yaml
+           packages/dns/package.json
+           packages/dns/src/dns.ts
+           packages/dns/src/words.ts
+           packages/dns/webpack.config.js
+           packages/dns/yarn.lock
+           packages/events/package.json
+           packages/events/src/events.ts
+           packages/events/src/index.ts
+           packages/events/test/events.test.ts
+           packages/events/yarn.lock
+           packages/ide-api/README.md
+           packages/ide-api/api.d.ts
+           packages/ide-api/package.json
+           packages/ide-api/yarn.lock
+           packages/ide/package.json
+           packages/ide/src/client.ts
+           packages/ide/src/fill/child_process.ts
+           packages/ide/src/fill/client.ts
+           packages/ide/src/fill/clipboard.ts
+           packages/ide/src/fill/dialog.scss
+           packages/ide/src/fill/dialog.ts
+           packages/ide/src/fill/electron.ts
+           packages/ide/src/fill/empty.ts
+           packages/ide/src/fill/fs.ts
+           packages/ide/src/fill/net.ts
+           packages/ide/src/fill/notification.ts
+           packages/ide/src/fill/os.ts
+           packages/ide/src/fill/trash.ts
+           packages/ide/src/fill/util.ts
+           packages/ide/src/index.ts
+           packages/ide/src/retry.ts
+           packages/ide/src/upload.ts
+           packages/ide/yarn.lock
+           packages/logger/.npmignore
+           packages/logger/README.md
+           packages/logger/package.json
+           packages/logger/src/index.ts
+           packages/logger/src/logger.test.ts
+           packages/logger/src/logger.ts
+           packages/logger/tsconfig.build.json
+           packages/logger/webpack.config.js
+           packages/logger/yarn.lock
+           packages/package.json
+           packages/protocol/package.json
+           packages/protocol/scripts/generate_proto.sh
+           packages/protocol/src/browser/client.ts
+           packages/protocol/src/browser/modules/child_process.ts
+           packages/protocol/src/browser/modules/fs.ts
+           packages/protocol/src/browser/modules/index.ts
+           packages/protocol/src/browser/modules/net.ts
+           packages/protocol/src/browser/modules/node-pty.ts
+           packages/protocol/src/browser/modules/spdlog.ts
+           packages/protocol/src/browser/modules/stream.ts
+           packages/protocol/src/browser/modules/trash.ts
+           packages/protocol/src/common/connection.ts
+           packages/protocol/src/common/proxy.ts
+           packages/protocol/src/common/util.ts
+           packages/protocol/src/index.ts
+           packages/protocol/src/node/modules/child_process.ts
+           packages/protocol/src/node/modules/fs.ts
+           packages/protocol/src/node/modules/index.ts
+           packages/protocol/src/node/modules/net.ts
+           packages/protocol/src/node/modules/node-pty.ts
+           packages/protocol/src/node/modules/spdlog.ts
+           packages/protocol/src/node/modules/stream.ts
+           packages/protocol/src/node/modules/trash.ts
+           packages/protocol/src/node/server.ts
+           packages/protocol/src/proto/client.proto
+           packages/protocol/src/proto/client_pb.d.ts
+           packages/protocol/src/proto/client_pb.js
+           packages/protocol/src/proto/index.ts
+           packages/protocol/src/proto/node.proto
+           packages/protocol/src/proto/node_pb.d.ts
+           packages/protocol/src/proto/node_pb.js
+           packages/protocol/src/proto/vscode.proto
+           packages/protocol/src/proto/vscode_pb.d.ts
+           packages/protocol/src/proto/vscode_pb.js
+           packages/protocol/test/child_process.test.ts
+           packages/protocol/test/forker.js
+           packages/protocol/test/fs.test.ts
+           packages/protocol/test/helpers.ts
+           packages/protocol/test/index.ts
+           packages/protocol/test/net.test.ts
+           packages/protocol/test/node-pty.test.ts
+           packages/protocol/test/server.test.ts
+           packages/protocol/test/spdlog.test.ts
+           packages/protocol/test/trash.test.ts
+           packages/protocol/yarn.lock
+           packages/requirefs/package.json
+           packages/requirefs/src/index.ts
+           packages/requirefs/src/requirefs.ts
+           packages/requirefs/src/tarReader.ts
+           packages/requirefs/test/.gitignore
+           packages/requirefs/test/requirefs.bench.ts
+           packages/requirefs/test/requirefs.test.ts
+           packages/requirefs/test/requirefs.util.ts
+           packages/requirefs/yarn.lock
+           packages/runner/package.json
+           packages/runner/src/index.ts
+           packages/runner/src/runner.ts
+           packages/runner/yarn.lock
+           packages/server/.gitignore
+           packages/server/README.md
+           packages/server/package.json
+           packages/server/scripts/nbin.ts
+           packages/server/src/cli.ts
+           packages/server/src/constants.ts
+           packages/server/src/ipc.ts
+           packages/server/src/modules.ts
+           packages/server/src/portScanner.ts
+           packages/server/src/server.ts
+           packages/server/src/vscode/bootstrapFork.ts
+           packages/server/src/vscode/sharedProcess.ts
+           packages/server/webpack.config.js
+           packages/server/yarn.lock
+           packages/tsconfig.json
+           packages/tunnel/package.json
+           packages/tunnel/src/client.ts
+           packages/tunnel/src/common.ts
+           packages/tunnel/src/server.ts
+           packages/tunnel/yarn.lock
+           packages/vscode/.gitignore
+           packages/vscode/package.json
+           packages/vscode/src/client.ts
+           packages/vscode/src/dialog.scss
+           packages/vscode/src/dialog.ts
+           packages/vscode/src/fill/amd.ts
+           packages/vscode/src/fill/codeEditor.ts
+           packages/vscode/src/fill/css.js
+           packages/vscode/src/fill/dom.ts
+           packages/vscode/src/fill/environmentService.ts
+           packages/vscode/src/fill/graceful-fs.ts
+           packages/vscode/src/fill/iconv-lite.ts
+           packages/vscode/src/fill/labels.ts
+           packages/vscode/src/fill/menuRegistry.ts
+           packages/vscode/src/fill/mouseEvent.ts
+           packages/vscode/src/fill/native-keymap.ts
+           packages/vscode/src/fill/native-watchdog.ts
+           packages/vscode/src/fill/node-pty.ts
+           packages/vscode/src/fill/package.ts
+           packages/vscode/src/fill/paste.ts
+           packages/vscode/src/fill/paths.ts
+           packages/vscode/src/fill/platform.ts
+           packages/vscode/src/fill/product.ts
+           packages/vscode/src/fill/ripgrep.ts
+           packages/vscode/src/fill/spdlog.ts
+           packages/vscode/src/fill/stdioElectron.ts
+           packages/vscode/src/fill/storageDatabase.ts
+           packages/vscode/src/fill/vscodeTextmate.ts
+           packages/vscode/src/fill/windowsService.ts
+           packages/vscode/src/fill/workbenchRegistry.ts
+           packages/vscode/src/fill/workspacesService.ts
+           packages/vscode/src/index.ts
+           packages/vscode/src/vscode-coder.svg
+           packages/vscode/src/vscode.scss
+           packages/vscode/src/workbench.ts
+           packages/vscode/test/test-extension.tar
+           packages/vscode/test/test-extension.vsix
+           packages/vscode/test/zip.test.ts
+           packages/vscode/webpack.bootstrap.config.js
+           packages/vscode/yarn.lock
+           packages/web/.gitignore
+           packages/web/package.json
+           packages/web/src/index.scss
+           packages/web/src/index.ts
+           packages/web/webpack.config.js
+           packages/web/yarn.lock
+           packages/yarn.lock
+           rules/src/curlyStatementNewlinesRule.ts
+           rules/src/noBlockPaddingRule.ts
+           rules/tsconfig.json
+           scripts/build.sh
+           scripts/dummy.js
+           scripts/install-packages.ts
+           scripts/test-setup.js
+           scripts/vscode.patch
+           scripts/webpack.client.config.js
+           scripts/webpack.general.config.js
+           scripts/webpack.node.config.js
+           tsconfig.json
+           tslint.json
+           yarn.lock
+Copyright: Coder Technologies Inc.
+License:   MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy of
+ this software and associated documentation files (the "Software"), to deal in
+ the Software without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ the Software, and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files:     packages/ide/src/fill/path.js
+Copyright: Joyent, Inc. and other Node contributors.
+License:   Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to permit
+ persons to whom the Software is furnished to do so, subject to the
+ following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+ NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+ USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files:     packages/vscode/src/fill/zip.ts
+Copyright: Microsoft Corporation.
+License:   __UNKNOWN__
+ Licensed under the MIT License. See License.txt in the project root for license information.

@@ -1,0 +1,5 @@
+code-server (0.0) UNRELEASED; urgency=low
+
+  * Initial release. Not a debian package, so no ITP.
+
+ -- MOZGIII <mike-n@narod.ru>  Fri, 29 Mar 2019 20:39:17 +0300

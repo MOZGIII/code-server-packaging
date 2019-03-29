@@ -1,0 +1,17 @@
+*.build
+*.buildinfo
+*.changes
+*.dsc
+*.deb
+*.ddeb
+*.tar.xz
+*.tar.gz
+
+/.pc
+/debian/*.debhelper.log
+/debian/tmp
+/debian/.debhelper
+/debian/files
+
+/debian/code-server.substvars
+/debian/code-server
